@@ -73,7 +73,7 @@ function drawLetter(posx, posy, letterData) {
   fill(darkBlue);
   ellipse(posx, posy, 150, 150);
   fill(lightBlue);
-  rect (pos2y,pos2y,size2,size2);
+  rect (pos2x,pos2y,size2,size2);
   //ellipse(pos2x, pos2y, size2, size2);
 }
 
