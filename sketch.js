@@ -56,7 +56,7 @@ function draw () {
   // compute the center of the canvas
   let center_x = canvasWidth / 2;
   let center_y = canvasHeight / 2;
-
+ 
   // draw the letters A, B, C from saved data
   drawLetter(center_x - 250, center_y, letterA);
   drawLetter(center_x      , center_y, letterB);
@@ -71,9 +71,9 @@ function drawLetter(posx, posy, letterData) {
 
   // draw two circles
   fill(darkBlue);
-  ellipse(posx, posy, 150, 150);
+  rect(posx, posy-50, 150, 150,7);
   fill(lightBlue);
-  rect (pos2x,pos2y,size2,size2);
+  rect (pos2x,pos2y,size2,2);
   //ellipse(pos2x, pos2y, size2, size2);
 }
 
