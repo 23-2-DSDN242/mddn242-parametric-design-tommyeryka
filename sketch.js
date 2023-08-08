@@ -61,6 +61,11 @@ function draw () {
   drawLetter(center_x - 250, center_y, letterA);
   drawLetter(center_x      , center_y, letterB);
   drawLetter(center_x + 250, center_y, letterC);
+  lines (305,250,305,350); 
+  lines (305,250,305,350); 
+  
+  //start x start y , end x, end y
+  lines (500,200,500,300);
 }
 
 function drawLetter(posx, posy, letterData) {
@@ -73,8 +78,11 @@ function drawLetter(posx, posy, letterData) {
   fill(darkBlue);
   rect(posx, posy-50, 150, 150,7);
   fill(lightBlue);
-  rect (pos2x,pos2y,size2,2);
+  
   //ellipse(pos2x, pos2y, size2, size2);
+}
+function lines (x,y,wd,ht){
+line (x,y,wd,ht);
 }
 
 function keyTyped() {
