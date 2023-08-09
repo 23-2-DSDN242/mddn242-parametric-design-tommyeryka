@@ -61,11 +61,16 @@ function draw () {
   drawLetter(center_x - 250, center_y, letterA);
   drawLetter(center_x      , center_y, letterB);
   drawLetter(center_x + 250, center_y, letterC);
-  lines (305,250,305,350); 
-  lines (305,250,305,350); 
-  
+  lines (305,250,305,280); 
+  lines (305,310,305,350); //a
+
+  lines (570,230,570,260);// b
+  lines (570,300,570,330);
+
+  lines (820,230,820,320);//c
+  lines (820,270,880,270);
   //start x start y , end x, end y
-  lines (500,200,500,300);
+  
 }
 
 function drawLetter(posx, posy, letterData) {
@@ -76,7 +81,7 @@ function drawLetter(posx, posy, letterData) {
 
   // draw two circles
   fill(darkBlue);
-  rect(posx, posy-50, 150, 150,7);
+  rect(posx, posy-50, 150, 150,10);
   fill(lightBlue);
   
   //ellipse(pos2x, pos2y, size2, size2);
