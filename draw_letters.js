@@ -1,12 +1,20 @@
 /* these are optional special variables which will change the system */
-var systemBackgroundColor = "#caf0f8";
+var systemBackgroundColor = "#264653";
 var systemLineColor = "#000090";
 var systemBoxColor = "#00c800";
 
 /* internal constants */
-const darkBlue  = "#0077b6";
-const lightBlue  = "#90e0ef";
-const strokeColor  = "#03045e";
+const darkBlue  = "#2A9D8F";
+const lightBlue  = "#E9C46A";
+
+const strokeColor  = "#F4A261";
+//2A9D8F  42,157,143 
+  //E9C46A  233,196,106 orange
+  //F4A261  244, 162, 97
+  //E76F51  231,111,81
+  drawLetter(center_x - 250, center_y, letterA);
+  drawLetter(center_x      , center_y, letterB);
+  drawLetter(center_x + 250, center_y, letterC);
 
 /*
  * Draw the letter given the letterData
@@ -15,21 +23,54 @@ const strokeColor  = "#03045e";
  * following bounding box guideline:
  * from (0,0) to (100, 200)
  */
-function drawLetter(letterData) {
+function drawLetter(posx, posy,letterData) {
   // color/stroke setup
+  
   stroke(strokeColor);
   strokeWeight(4);
 
   // determine parameters for second circle
-  let size2 = letterData["size"];
-  let pos2x = 50  + letterData["offsetx"];
-  let pos2y = 150 + letterData["offsety"];
+  //let size2 = letterData["size"];
+  //let pos2x = 50  + letterData["offsetx"];
+  //let pos2y = 150 + letterData["offsety"];
 
   // draw two circles
-  fill(darkBlue);
-  ellipse(50, 150, 75, 75);
-  fill(lightBlue);
-  ellipse(pos2x, pos2y, size2, size2);
+  let size2 = letterData["size"];
+  let pos2x = posx + letterData["offsetx"];
+  let pos2y = posy + letterData["offsety"];
+
+  let rectX1 = posx + letterData["rectX1"];
+  let rectX2 = posx + letterData["rectX2"];
+  let rectY1 = posy + letterData["rectY1"];
+  let rectY2 = posy + letterData["rectY2"];
+  let arcX1 = posx + letterData["arcX1"];
+  let arcY1 = posy + letterData["arcY1"];
+  let arcX2 = posx + letterData["arcX2"];
+  let arcY2 = posy + letterData["arcY2"];
+  
+  let start = radians(letterData ["start"]);
+  let stop = radians (letterData ["stop"]);
+
+  let start1 = radians(letterData ["start1"]);
+  let stop1 = radians (letterData ["stop1"]);
+
+  let wdSize = (letterData ["sizewd"]);
+  let htSize = (letterData ["sizeht"]);
+
+  // draw two rects 
+  noStroke();
+  fill(233,196,106); //orange 
+  rect (rectX1  , rectY1 , wdSize,wdSize);
+
+  fill(42,157,143 ); //light blue 
+  rect (rectX2 , rectY2, wdSize,htSize);
+   //first arc
+  fill(231,111,81); //RED    
+  arc(arcX1, arcY1, size2, size2, start, stop);
+//second arc
+  fill(244, 162, 97); //lighter orange   
+  arc(arcX2, arcY2, size2, size2, start1, stop1);
+
 }
 
 function interpolate_letter(percent, oldObj, newObj) {

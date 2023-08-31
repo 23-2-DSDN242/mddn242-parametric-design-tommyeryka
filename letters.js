@@ -4,185 +4,63 @@ const alphabet = {
     "offsetx": 0,
     "offsety": 0
   },
-  "A": {
-    "size": 40,
+  "A" : {
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
     "offsetx": 0,
-    "offsety": 17
+    "offsety": 0,
+    "rectX1" : -42,
+    "rectY1" : 5,
+    "rectX2" : 0,
+    "rectY2" : +5,
+    "arcX1" : -2,
+    "arcY1" : -38,
+    "arcX2" : 0,
+    "arcY2" : +2,
+    "start" : 90,
+    "stop":180,
+    "start1":270,
+    "stop1":0
   },
-  "B": {
-    "size": 75,
+  
+  "B" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 60,
     "offsetx": 0,
-    "offsety": -70
+    "offsety": -15,
+    "rectX1" : -40,
+    "rectY1" : 5,
+    "rectX2" : -40,
+    "rectY2" : -58,
+    "arcX1" : 2,
+    "arcY1" : 5,
+    "arcX2" : 2,
+    "arcY2" : 2,
+    "start":0,
+    "stop":90,
+    "start1":270,
+    "stop1":0
   },
-  "C": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "D": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "E": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "F": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "G": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "H": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "I": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "J": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "K": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "L": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "M": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "N": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "O": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "P": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "Q": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "R": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "S": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "T": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "U": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "V": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "W": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "X": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "Y": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "Z": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
-  },
-  "0": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "1": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "2": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "3": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "4": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "5": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "6": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "7": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "8": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
-  },
-  "9": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+  
+  "C" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+    "offsetx": 30,
+    "offsety": 0,
+    "rectX1" : -42,
+    "rectY1" : 5,
+    "rectX2" : -42,
+    "rectY2" : -38,
+    "arcX1" : -2,
+    "arcY1" : 2,
+    "arcX2" : -2,
+    "arcY2" : 5,
+    "start":180,
+    "stop":0,
+    "start1":0,
+    "stop1":180
   }
-
 }
