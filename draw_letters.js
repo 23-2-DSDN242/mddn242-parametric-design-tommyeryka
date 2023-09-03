@@ -12,10 +12,24 @@ const strokeColor  = "#F4A261";
   //E9C46A  233,196,106 orange
   //F4A261  244, 162, 97
   //E76F51  231,111,81
+  let posx = 25;
+  let posy = 50;
+
+function draw () {
+  // clear screen
+  background(backgroundColor);
+
+  // compute the center of the canvas
+  let center_x = canvasWidth / 2;
+  let center_y = canvasHeight / 2;
+ 
+  // draw the letters A, B, C from saved data
   drawLetter(center_x - 250, center_y, letterA);
   drawLetter(center_x      , center_y, letterB);
   drawLetter(center_x + 250, center_y, letterC);
 
+
+}
 /*
  * Draw the letter given the letterData
  *
@@ -23,7 +37,7 @@ const strokeColor  = "#F4A261";
  * following bounding box guideline:
  * from (0,0) to (100, 200)
  */
-function drawLetter(posx, posy,letterData) {
+function drawLetter(letterData) {
   // color/stroke setup
   
   stroke(strokeColor);
@@ -36,8 +50,8 @@ function drawLetter(posx, posy,letterData) {
 
   // draw two circles
   let size2 = letterData["size"];
-  let pos2x = posx + letterData["offsetx"];
-  let pos2y = posy + letterData["offsety"];
+ // let pos2x = posx + letterData["offsetx"];
+  //let pos2y = posy + letterData["offsety"];
 
   let rectX1 = posx + letterData["rectX1"];
   let rectX2 = posx + letterData["rectX2"];
