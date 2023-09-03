@@ -120,8 +120,7 @@ function drawLetter(posx, posy, letterData) {
   let arcX1 = posx + letterData["arcX1"];
   let arcY1 = posy + letterData["arcY1"];
   let arcX2 = posx + letterData["arcX2"];
-  let arcY2 = posy + letterData["arcY2"];
-  
+  let arcY2 = posy + letterData["arcY2"];//
   let start = radians(letterData ["start"]);
   let stop = radians (letterData ["stop"]);
 
