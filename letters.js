@@ -529,5 +529,238 @@ const alphabet = {
     "start1":90,
     "stop1":180
 
+
+
+  },
+  
+  "0" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+    "rectX1" : -1,
+    "rectY1" : 62,
+    "rectX2" : -42,
+    "rectY2" : 62,
+    "arcX1" : 0,
+    "arcY1" : 60,
+    "arcX2" : -2,
+    "arcY2" : 103,
+    "start":180,
+    "stop":0,
+    "start1":0,
+    "stop1":180
+
+  },
+  
+  "1" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+    "offsetx": 0,
+    "offsety": -15,
+    "rectX1" : -29, //YELLOW
+    "rectY1" : 104, //YELLOW
+    "rectX2" : -29, //BLUE
+    "rectY2" : 62,
+    "arcX1" : 11,
+    "arcY1" : 60,
+    "arcX2" : -39,
+    "arcY2" : 105,
+    "start":180,
+    "stop":270,
+    "start1":0,
+    "stop1":0
+
+
+  },
+  
+  "2" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+   // "offsetx": 0,
+   // "offsety": 0,
+    "rectX1" : -42,
+    "rectY1" : 105,
+    "rectX2" : 0,
+    "rectY2" : 105,
+    "arcX1" : 0,
+    "arcY1" : 63,
+    "arcX2" : 0,
+    "arcY2" : 62,
+    "start":0,
+    "stop":90,
+    "start1":180,
+    "stop1":0,
+
+    
+  },
+  
+  "3" :{
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+    "rectX1" : -1,
+    "rectY1" : 61,
+    "rectX2" : -1,
+    "rectY2" : 61,
+    "arcX1" : 0,
+    "arcY1" : 60,
+    "arcX2" : -2,
+    "arcY2" : 103,
+    "start":180,
+    "stop":0,
+    "start1":0,
+    "stop1":180
+
+  },
+  
+  "4" :{
+    "size": 80,
+      "sizewd": 40,
+      "sizeht": 80,
+      "offsetx": 0,
+      "offsety": -15,
+      "rectX1" : -40,
+      "rectY1" : 60,
+      "rectX2" : 1,
+      "rectY2" : 60,
+      "arcX1" : 0, //dark orange
+      "arcY1" : 58,
+      "arcX2" : 42, //light orange 
+      "arcY2" : 58,
+      "start":180, //dark orange
+      "stop":270,
+      "start1":180,
+      "stop1":270
+
+    },
+  
+    "5" :{
+      "size": 80,
+        "sizewd": 40,
+        "sizeht": 40,
+        "offsetx": 0,
+        "offsety": -15,
+        "rectX1" : 2,
+        "rectY1" : 19,
+        "rectX2" : -40,
+        "rectY2" : 61,
+        "arcX1" : 0, //dark orange
+        "arcY1" : 59,
+        "arcX2" : 2, //light orange 
+        "arcY2" : 102,
+        "start":180, //dark orange
+        "stop":270,
+        "start1":270, //light orange
+        "stop1":130
+
+      },
+  
+      "6" :{
+        "size": 80,
+          "sizewd": 40,
+          "sizeht": 40,
+          "offsetx": 0,
+          "offsety": -15,
+          "rectX1" : 2,
+          "rectY1" : 19,
+          "rectX2" : -40,
+          "rectY2" : 61,
+          "arcX1" : 0, //dark orange
+          "arcY1" : 59,
+          "arcX2" : 2, //light orange 
+          "arcY2" : 104,
+          "start":180, //dark orange
+          "stop":270,
+          "start1":270, //light orange
+          "stop1":180
+
+        },
+  
+        "7" :{
+          "size": 80,
+          "sizewd": 40,
+          "sizeht": 40,
+          "offsetx": 0,
+          "offsety": -15,
+          "rectX1" : 2, //YELLOW
+          "rectY1" : 63, //YELLOW
+          "rectX2" : 2, //BLUE
+          "rectY2" : 20,
+          "arcX1" : 1,
+          "arcY1" : 60,
+          "arcX2" : 42,
+          "arcY2" : 105,
+          "start":180,
+          "stop":270,
+          "start1":90,
+          "stop1":180
+
+          
+      },
+  
+      "8" :{
+        "size": 80,
+          "sizewd": 40,
+          "sizeht": 80,
+          "offsetx": 0,
+          "offsety": -15,
+          "rectX1" : 2,
+          "rectY1" : 19,
+          "rectX2" : -42,
+          "rectY2" : 61,
+          "arcX1" : 0, //dark orange
+          "arcY1" : 59,
+          "arcX2" : 2, //light orange 
+          "arcY2" : 102,
+          "start":90, //dark orange
+          "stop":378,
+          "start1":270, //light orange
+          "stop1":200
+
+
+        },
+  
+        "9" :{
+          "size": 80,
+            "sizewd": 40,
+            "sizeht": 40,
+            "offsetx": 0,
+            "offsety": -15,
+            "rectX1" : -40,
+            "rectY1" : 102,
+            "rectX2" : 2,
+            "rectY2" : 60,
+            "arcX1" : 2, //dark orange
+            "arcY1" : 102,
+            "arcX2" : 0, //light orange 
+            "arcY2" : 58,
+            "start":0,
+            "stop":90,
+            "start1":90, //light orange
+            "stop1":0
+
+          },
+  
+          "?" :{
+            "size": 80,
+              "sizewd": 40,
+              "sizeht": 20,
+              "offsetx": 0,
+              "offsety": -15,
+              "rectX1" : -40,
+              "rectY1" : 102,
+              "rectX2" : -40,
+              "rectY2" : 78,
+              "arcX1" : 0, //dark orange
+              "arcY1" : 59,
+              "arcX2" : 1, //light orange 
+              "arcY2" : 59,
+              "start":180,
+              "stop":270,
+              "start1":270, //light orange
+              "stop1":90
+
 }
 }
