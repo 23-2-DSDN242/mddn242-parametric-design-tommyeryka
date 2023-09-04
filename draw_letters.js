@@ -73,7 +73,7 @@ function drawLetter(letterData) {
    //first arc
    fill(244, 162, 97); //lighter orange   
    arc(arcX2, arcY2, size2, size2, start1, stop1);
-//second arc
+
   fill(231,111,81); //RED    
   arc(arcX1, arcY1, size2, size2, start, stop);
 
@@ -84,8 +84,20 @@ function drawLetter(letterData) {
 function interpolate_letter(percent, oldObj, newObj) {
   let new_letter = {};
   new_letter["size"]    = map(percent, 0, 100, oldObj["size"], newObj["size"]);
-  new_letter["offsetx"] = map(percent, 0, 100, oldObj["offsetx"], newObj["offsetx"]);
-  new_letter["offsety"] = map(percent, 0, 100, oldObj["offsety"], newObj["offsety"]);
+  new_letter["rectX1"] = map(percent, 0, 100, oldObj["rectX1"], newObj["rectX1"]);
+  new_letter["rectX2"] = map(percent, 0, 100, oldObj["rectX2"], newObj["rectX2"]);
+  new_letter["rectY1"] = map(percent, 0, 100, oldObj["rectY1"], newObj["rectY1"]);
+  new_letter["rectY2"] = map(percent, 0, 100, oldObj["rectY2"], newObj["rectY2"]);
+  new_letter["arcX1"] = map(percent, 0, 100, oldObj["arcX1"], newObj["arcX1"]);
+  new_letter["arcY1"] = map(percent, 0, 100, oldObj["arcY1"], newObj["arcY1"]);
+  new_letter["arcX2"] = map(percent, 0, 100, oldObj["arcX2"], newObj["arcX2"]);
+  new_letter["arcY2"] = map(percent, 0, 100, oldObj["arcY2"], newObj["arcY2"]);
+  new_letter["start"] = map(percent, 0, 100, oldObj["start"], newObj["start"]);
+  new_letter["stop"] = map(percent, 0, 100, oldObj["stop"], newObj["stop"]);
+  new_letter["start1"] = map(percent, 0, 100, oldObj["start1"], newObj["start1"]);
+  new_letter["stop1"] = map(percent, 0, 100, oldObj["stop1"], newObj["stop1"]); 
+  new_letter["sizewd"] = map(percent, 0, 100, oldObj["sizewd"], newObj["sizewd"]);
+  new_letter["sizeht"] = map(percent, 0, 100, oldObj["sizeht"], newObj["sizeht"]);
   return new_letter;
 }
 
