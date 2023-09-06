@@ -47,11 +47,11 @@ const alphabet = {
     "rectX1" : -42, //yellow
     "rectY1" : 108,
     "rectX2" : -42, //blue
-    "rectY2" : 63,
+    "rectY2" : 60,
     "arcX1" : -2, //dark
     "arcY1" : 103,
     "arcX2" : -2, //light
-    "arcY2" : 106,
+    "arcY2" : 102,
     "start":40, //dark
     "stop" :180,
     "start1":180, //light
