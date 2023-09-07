@@ -4,10 +4,43 @@
  * and each row should be:
  * ["object_field", minimum_bound, maximum_bound]
  */
+
+/*
+"size": 80,
+"sizewd": 40,
+"sizeht": 40,
+"rectX1" : -42, //yellow
+"rectY1" : 105,
+"rectX2" : 0, //blue
+"rectY2" : 105,
+"arcX1" : -2, //dark
+"arcY1" : 63,
+"arcX2" : 0, //light
+"arcY2" : 103,
+"start" : 90, //dark
+"stop":180,
+"start1":270, //light
+"stop1":0
+*/
+
 const sliderInfo = [
   ["size",       0, 100],
-  ["offsetx",  -30,  30],
-  ["offsety", -100, 100]
+  ["sizewd",  20,  50],
+  ["sizeht", -70, -30],
+  ["rectX1", -200, 200],
+  ["rectY1", -200, 200],
+  ["rectX2", -200, 200],
+  ["rectY2", -200, 200],
+  ["arcX1", -200, 200],
+  ["arcY1", -200, 200],
+  ["arcX2", -200, 200],
+  ["arcY2", -200, 200],
+  ["start", -0,360],
+  ["stop", -0, 360],
+  ["start1", -0, 90],
+  ["stop2", -300, 0]
+
+ 
 ];
 
 // PROBABLY DON'T NEED TO EDIT ANYTHING ELSE. STOP HERE.
@@ -82,6 +115,7 @@ function draw () {
   push();
   scale(2);
   translate(width/4 - 50, 25);
+
 
   if (debugBox) {
     noFill()
