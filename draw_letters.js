@@ -8,10 +8,6 @@ const darkBlue  = "#2A9D8F";
 const lightBlue  = "#E9C46A";
 
 const strokeColor  = "#F4A261";
-//2A9D8F  42,157,143 
-  //E9C46A  233,196,106 orange
-  //F4A261  244, 162, 97
-  //E76F51  231,111,81
   let posx = 25;
   let posy = 50;
 
@@ -46,8 +42,6 @@ function drawLetter(letterData) {
 
   // draw two circles
   let size2 = letterData["size"];
- // let pos2x = posx + letterData["offsetx"];
-  //let pos2y = posy + letterData["offsety"];
   let rectX1 = posx + letterData["rectX1"];
   let rectX2 = posx + letterData["rectX2"];
   let rectY1 = posy + letterData["rectY1"];
@@ -76,8 +70,6 @@ function drawLetter(letterData) {
 
   fill(231,111,81); //RED    
   arc(arcX1, arcY1, size2, size2, start, stop);
-
-
 
 }
 
@@ -130,11 +122,11 @@ function interpolate_letter(percent, oldObj, newObj) {
 }
 
 var swapWords = [
-  "INDUSTRY", //good
-  "RELIGION",
-  "BUSINESS",//
-  "INVOLVED", // bad 
-  "ABBAABBA",
-  "CAB?CAB?",
+  "ARCBLOCK", 
+  "HARMONY?",
+  "KEYBOARD",
+  "LAUGHTER", 
+  "ELEPHANT",
+  "TRIANGLE",
   "BAAAAAAA"
 ]
