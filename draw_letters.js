@@ -99,14 +99,14 @@ function interpolate_letter(percent, oldObj, newObj) {
 
   let old_start1 = oldObj["start1"];
   let new_start1 = newObj["start1"];
-  if (old_start1 < new_start) {
+  if (old_start1 > new_start1) {
     new_start1 = new_start1 + 360;
   }
 
   let old_stop1 = oldObj["stop1"];
   let new_stop1 = newObj["stop1"];
   if (old_stop1 > new_stop1) {
-    old_stop1 = old_stop1 - 360;
+   new_stop1 = new_stop1 + 360;
   }
  
   new_letter["start"] = map(percent, 0, 100, old_start, new_start);
@@ -124,16 +124,16 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["arcY1"] = map(percent, 0, 100, oldObj["arcY1"], newObj["arcY1"]);
   new_letter["arcX2"] = map(percent, 0, 100, oldObj["arcX2"], newObj["arcX2"]);
   new_letter["arcY2"] = map(percent, 0, 100, oldObj["arcY2"], newObj["arcY2"]);
- // new_letter["start"] = map(percent, 0, 100, oldObj["start"], newObj["start"]);
- // new_letter["stop"] = map(percent, 0, 100, oldObj["stop"], newObj["stop"]);
- // new_letter["start1"] = map(percent, 0, 100, oldObj["start1"], newObj["start1"]);
-//new_letter["stop1"] = map(percent, 0, 100, oldObj["stop1"], newObj["stop1"]);
   new_letter["sizewd"] = map(percent, 0, 100, oldObj["sizewd"], newObj["sizewd"]);
   new_letter["sizeht"] = map(percent, 0, 100, oldObj["sizeht"], newObj["sizeht"]);
   return new_letter;
 }
 
 var swapWords = [
+  "INDUSTRY", //good
+  "RELIGION",
+  "BUSINESS",//
+  "INVOLVED", // bad 
   "ABBAABBA",
   "CAB?CAB?",
   "BAAAAAAA"
