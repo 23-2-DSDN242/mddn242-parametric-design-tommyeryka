@@ -4,9 +4,22 @@
 
 (Replace this README with information about your alphabet. This is an example.)
 
-Each of my letters is composed with two circles. The size and position of the first circle is fixed, but the location and size of the second circle is controlled by three parameters.
+Each of my letters is composed with two arcs and two rectangles. The arc angle changes each time to create curves in letters while the rects are fixed in size. However, the blue rects height and x position tends to change based on letters (like "h", "l" etc...).
+My code uses a total of 15 parameters.
 
 The three parameters per letter:
-  * `size` : radius of the second circle
-  * `offsetx` : x offset of the second circle relative to the first one
-  * `offsety` : y offset of the second circle relative to the first one
+  * `size` : size of letters
+* `rectX1` : x pos of first rectangle 
+ * `rectY1`: y pos of first rectangle 
+ * `rectX2`: x pos of second rectangle 
+ * `rectY2`: y pos of second rectangle 
+ * `arcX1`: x pos of first arc 
+ * `arcY1` : y pos of first arc
+ * `arcX2`  : x pos of second arc 
+ * `arcY2` : y pos of second arc  
+  * `start`: start angle of first arc
+ * `stop`: stop angle of first arc
+ * `start1` : start angle of second arc
+ * `stop1`: stop angle of second arc
+ * `sizewd`: width of blue rect
+ * `sizeht`: height of blue rect
