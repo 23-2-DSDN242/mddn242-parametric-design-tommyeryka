@@ -1,8 +1,21 @@
 const alphabet = {
   "default": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 0
+
+    "size": 80,
+    "sizewd": 40,
+    "sizeht": 40,
+    "rectX1" : -42, //yellow
+    "rectY1" : 105,
+    "rectX2" : 0, //blue
+    "rectY2" : 22,
+    "arcX1" : -2, //dark
+    "arcY1" : 63,
+    "arcX2" : 0, //light
+    "arcY2" : 103,
+    "start" : 180, //dark
+    "stop":0,
+    "start1":0, //light
+    "stop1":180
   },
   "A" : {
     "size": 80,
@@ -270,9 +283,6 @@ const alphabet = {
   "O" :{
     "size": 80,
     "sizewd": 40,
-    "sizeht": 40,
-    "offsetx": 30,
-    "offsety": 0,
     "rectX1" : -20,
     "rectY1" : 108,
     "rectX2" : -20,
@@ -291,8 +301,6 @@ const alphabet = {
     "size": 80,
       "sizewd": 40,
       "sizeht": 82,
-      "offsetx": 0,
-      "offsety": -15,
       "rectX1" : -40,
       "rectY1" : 145,
       "rectX2" : -40,
@@ -331,8 +339,6 @@ const alphabet = {
       "size": 80,
       "sizewd": 40,
       "sizeht": 40,
-      "offsetx": 30,
-      "offsety": 0,
       "rectX1" : -42,
       "rectY1" : 105,
       "rectX2" : -42,
@@ -353,8 +359,6 @@ const alphabet = {
       "size": 80,
       "sizewd": 40,
       "sizeht": 40,
-      "offsetx": 30,
-      "offsety": 0,
       "rectX1" : -3,
       "rectY1" : 106,
       "rectX2" : -20,
@@ -373,8 +377,6 @@ const alphabet = {
       "size": 80,
       "sizewd": 40,
       "sizeht": 62,
-      "offsetx": 0,
-      "offsety": -15,
       "rectX1" : -39,
       "rectY1" : 64,
       "rectX2" : -39,
@@ -450,8 +452,6 @@ const alphabet = {
     "size": 80,
     "sizewd": 40,
     "sizeht": 40,
-    "offsetx": 30,
-    "offsety": 0,
     "rectX1" : -23,
     "rectY1" : 108,
     "rectX2" : -23,
@@ -490,8 +490,6 @@ const alphabet = {
     "size": 80,
     "sizewd": 40,
     "sizeht": 40,
-    "offsetx": 30,
-    "offsety": 0,
     "rectX1" : -42,
     "rectY1" : 105,
     "rectX2" : 0,
@@ -532,8 +530,6 @@ const alphabet = {
     "size": 80,
     "sizewd": 40,
     "sizeht": 40,
-    "offsetx": 0,
-    "offsety": -15,
     "rectX1" : -29, //YELLOW
     "rectY1" : 104, //YELLOW
     "rectX2" : -29, //BLUE
@@ -554,8 +550,6 @@ const alphabet = {
     "size": 80,
     "sizewd": 40,
     "sizeht": 40,
-   // "offsetx": 0,
-   // "offsety": 0,
     "rectX1" : -42,
     "rectY1" : 105,
     "rectX2" : 0,
@@ -595,8 +589,6 @@ const alphabet = {
     "size": 80,
       "sizewd": 40,
       "sizeht": 80,
-      "offsetx": 0,
-      "offsety": -15,
       "rectX1" : -40,
       "rectY1" : 60,
       "rectX2" : 1,
@@ -616,8 +608,6 @@ const alphabet = {
       "size": 80,
         "sizewd": 40,
         "sizeht": 40,
-        "offsetx": 0,
-        "offsety": -15,
         "rectX1" : 2,
         "rectY1" : 19,
         "rectX2" : -40,
@@ -637,8 +627,6 @@ const alphabet = {
         "size": 80,
           "sizewd": 40,
           "sizeht": 40,
-          "offsetx": 0,
-          "offsety": -15,
           "rectX1" : 2,
           "rectY1" : 19,
           "rectX2" : -40,
@@ -658,8 +646,6 @@ const alphabet = {
           "size": 80,
           "sizewd": 40,
           "sizeht": 40,
-          "offsetx": 0,
-          "offsety": -15,
           "rectX1" : 2, //YELLOW
           "rectY1" : 63, //YELLOW
           "rectX2" : 2, //BLUE
@@ -680,8 +666,6 @@ const alphabet = {
         "size": 80,
           "sizewd": 40,
           "sizeht": 80,
-          "offsetx": 0,
-          "offsety": -15,
           "rectX1" : 2,
           "rectY1" : 19,
           "rectX2" : -42,
@@ -702,8 +686,6 @@ const alphabet = {
           "size": 80,
             "sizewd": 40,
             "sizeht": 40,
-            "offsetx": 0,
-            "offsety": -15,
             "rectX1" : -40,
             "rectY1" : 102,
             "rectX2" : 2,
@@ -723,8 +705,6 @@ const alphabet = {
             "size": 80,
               "sizewd": 40,
               "sizeht": 20,
-              "offsetx": 0,
-              "offsety": -15,
               "rectX1" : -40,
               "rectY1" : 102,
               "rectX2" : -40,

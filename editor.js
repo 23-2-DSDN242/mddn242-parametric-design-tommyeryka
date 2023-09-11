@@ -5,23 +5,6 @@
  * ["object_field", minimum_bound, maximum_bound]
  */
 
-/*
-"size": 80,
-"sizewd": 40,
-"sizeht": 40,
-"rectX1" : -42, //yellow
-"rectY1" : 105,
-"rectX2" : 0, //blue
-"rectY2" : 105,
-"arcX1" : -2, //dark
-"arcY1" : 63,
-"arcX2" : 0, //light
-"arcY2" : 103,
-"start" : 90, //dark
-"stop":180,
-"start1":270, //light
-"stop1":0
-*/
 
 const sliderInfo = [
   ["size",       0, 100],

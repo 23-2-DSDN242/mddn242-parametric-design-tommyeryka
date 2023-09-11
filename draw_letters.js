@@ -23,8 +23,6 @@ function draw () {
   drawLetter(center_x - 250, center_y, letterA);
   drawLetter(center_x      , center_y, letterB);
   drawLetter(center_x + 250, center_y, letterC);
-
-
 }
 /*
  * Draw the letter given the letterData
@@ -103,7 +101,6 @@ function interpolate_letter(percent, oldObj, newObj) {
  
   new_letter["start"] = map(percent, 0, 100, old_start, new_start);
   new_letter["stop"] = map(percent, 0, 100, old_stop, new_stop);
-
   new_letter["start1"] = map(percent, 0, 100, old_start1, new_start1);
   new_letter["stop1"] = map(percent, 0, 100, old_stop1, new_stop1);
 
