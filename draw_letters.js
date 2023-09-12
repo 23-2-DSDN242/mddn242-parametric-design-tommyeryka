@@ -125,5 +125,5 @@ var swapWords = [
   "LAUGHTER", 
   "ELEPHANT",
   "TRIANGLE",
-  "BAAAAAAA"
+  "BANANAS?"
 ]

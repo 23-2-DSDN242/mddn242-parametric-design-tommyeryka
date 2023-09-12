@@ -4,8 +4,6 @@
  * and each row should be:
  * ["object_field", minimum_bound, maximum_bound]
  */
-
-
 const sliderInfo = [
   ["size",       0, 100],
   ["sizewd",  20,  50],

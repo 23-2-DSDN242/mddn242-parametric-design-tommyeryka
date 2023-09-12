@@ -50,13 +50,13 @@ var defaultSwapWords = [
   "INCREASE",
   "RECEIVED",
   "ANYTHING",
-  "INDUSTRY", //good
+  "INDUSTRY",
   "RELIGION",
   "BUILDING",
   "INTEREST",
   "REMEMBER",
-  "BUSINESS",//
-  "INVOLVED", // bad 
+  "BUSINESS",
+  "INVOLVED", 
   "REQUIRED",
   "CHILDREN",
   "NATIONAL",
